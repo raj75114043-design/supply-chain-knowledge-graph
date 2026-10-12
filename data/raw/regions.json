@@ -1,0 +1,72 @@
+[
+ {
+  "city": "Shenzhen",
+  "region": "Guangdong",
+  "country": "CN"
+ },
+ {
+  "city": "Dongguan",
+  "region": "Guangdong",
+  "country": "CN"
+ },
+ {
+  "city": "Suzhou",
+  "region": "Jiangsu",
+  "country": "CN"
+ },
+ {
+  "city": "Ganzhou",
+  "region": "Jiangxi",
+  "country": "CN"
+ },
+ {
+  "city": "Xining",
+  "region": "Qinghai",
+  "country": "CN"
+ },
+ {
+  "city": "Hsinchu",
+  "region": "Hsinchu",
+  "country": "TW"
+ },
+ {
+  "city": "Kumamoto",
+  "region": "Kyushu",
+  "country": "JP"
+ },
+ {
+  "city": "Hwaseong",
+  "region": "Gyeonggi",
+  "country": "KR"
+ },
+ {
+  "city": "Regensburg",
+  "region": "Bavaria",
+  "country": "DE"
+ },
+ {
+  "city": "Bayan Lepas",
+  "region": "Penang",
+  "country": "MY"
+ },
+ {
+  "city": "Sanand",
+  "region": "Gujarat",
+  "country": "IN"
+ },
+ {
+  "city": "Tijuana",
+  "region": "Baja California",
+  "country": "MX"
+ },
+ {
+  "city": "Wroclaw",
+  "region": "Lower Silesia",
+  "country": "PL"
+ },
+ {
+  "city": "Gdansk",
+  "region": "Pomerania",
+  "country": "PL"
+ }
+]

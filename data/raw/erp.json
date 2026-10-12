@@ -1,0 +1,450 @@
+{
+ "products": [
+  {
+   "product_id": "HX-AERO",
+   "name": "Helix Aero",
+   "weekly_revenue_musd": 42.0
+  },
+  {
+   "product_id": "HX-TERRA",
+   "name": "Helix Terra",
+   "weekly_revenue_musd": 55.0
+  },
+  {
+   "product_id": "HX-CARGO",
+   "name": "Helix Cargo",
+   "weekly_revenue_musd": 18.0
+  }
+ ],
+ "assemblies": [
+  {
+   "assembly_id": "A-BAT",
+   "name": "Battery pack"
+  },
+  {
+   "assembly_id": "A-DRV",
+   "name": "Drive unit"
+  },
+  {
+   "assembly_id": "A-INF",
+   "name": "Infotainment unit"
+  },
+  {
+   "assembly_id": "A-ADS",
+   "name": "ADAS module"
+  },
+  {
+   "assembly_id": "A-ELE",
+   "name": "Electrical system"
+  },
+  {
+   "assembly_id": "A-BIW",
+   "name": "Body in white"
+  },
+  {
+   "assembly_id": "A-SEA",
+   "name": "Seating"
+  }
+ ],
+ "bom": [
+  {
+   "parent": "HX-AERO",
+   "child": "A-BAT"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-DRV"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-INF"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-ADS"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-ELE"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-BIW"
+  },
+  {
+   "parent": "HX-AERO",
+   "child": "A-SEA"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-BAT"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-DRV"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-INF"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-ADS"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-ELE"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-BIW"
+  },
+  {
+   "parent": "HX-TERRA",
+   "child": "A-SEA"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-BAT"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-DRV"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-ELE"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-BIW"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-SEA"
+  },
+  {
+   "parent": "HX-CARGO",
+   "child": "A-ADS"
+  },
+  {
+   "parent": "A-BAT",
+   "child": "P-1001"
+  },
+  {
+   "parent": "A-BAT",
+   "child": "P-1002"
+  },
+  {
+   "parent": "A-BAT",
+   "child": "P-1003"
+  },
+  {
+   "parent": "A-DRV",
+   "child": "P-2001"
+  },
+  {
+   "parent": "A-DRV",
+   "child": "P-2002"
+  },
+  {
+   "parent": "A-INF",
+   "child": "P-3001"
+  },
+  {
+   "parent": "A-INF",
+   "child": "P-3002"
+  },
+  {
+   "parent": "A-ADS",
+   "child": "P-4001"
+  },
+  {
+   "parent": "A-ADS",
+   "child": "P-4002"
+  },
+  {
+   "parent": "A-ELE",
+   "child": "P-5001"
+  },
+  {
+   "parent": "A-ELE",
+   "child": "P-9001"
+  },
+  {
+   "parent": "A-BIW",
+   "child": "P-6001"
+  },
+  {
+   "parent": "A-BIW",
+   "child": "P-8001"
+  },
+  {
+   "parent": "A-SEA",
+   "child": "P-7001"
+  }
+ ],
+ "parts": [
+  {
+   "part_id": "P-1001",
+   "name": "Lithium-ion cell",
+   "inventory_weeks": 3
+  },
+  {
+   "part_id": "P-1002",
+   "name": "BMS controller chip",
+   "inventory_weeks": 6
+  },
+  {
+   "part_id": "P-1003",
+   "name": "BMS board",
+   "inventory_weeks": 2
+  },
+  {
+   "part_id": "P-2001",
+   "name": "SiC inverter module",
+   "inventory_weeks": 4
+  },
+  {
+   "part_id": "P-2002",
+   "name": "Drive motor",
+   "inventory_weeks": 3
+  },
+  {
+   "part_id": "P-3001",
+   "name": "Infotainment display",
+   "inventory_weeks": 5
+  },
+  {
+   "part_id": "P-3002",
+   "name": "Main MCU",
+   "inventory_weeks": 8
+  },
+  {
+   "part_id": "P-4001",
+   "name": "Front radar",
+   "inventory_weeks": 4
+  },
+  {
+   "part_id": "P-4002",
+   "name": "Camera module",
+   "inventory_weeks": 3
+  },
+  {
+   "part_id": "P-5001",
+   "name": "Main wiring harness",
+   "inventory_weeks": 1
+  },
+  {
+   "part_id": "P-6001",
+   "name": "Body side panel set",
+   "inventory_weeks": 2
+  },
+  {
+   "part_id": "P-7001",
+   "name": "Seat frame with motors",
+   "inventory_weeks": 2
+  },
+  {
+   "part_id": "P-8001",
+   "name": "Windshield",
+   "inventory_weeks": 3
+  },
+  {
+   "part_id": "P-9001",
+   "name": "Charging port module",
+   "inventory_weeks": 2
+  }
+ ],
+ "sourcing": [
+  {
+   "part_id": "P-1001",
+   "supplier_id": "S01",
+   "share": 0.7,
+   "ttr_weeks": 10
+  },
+  {
+   "part_id": "P-1001",
+   "supplier_id": "S13",
+   "share": 0.3,
+   "ttr_weeks": 8
+  },
+  {
+   "part_id": "P-1002",
+   "supplier_id": "S03",
+   "share": 1.0,
+   "ttr_weeks": 16
+  },
+  {
+   "part_id": "P-1003",
+   "supplier_id": "S11",
+   "share": 1.0,
+   "ttr_weeks": 6
+  },
+  {
+   "part_id": "P-2001",
+   "supplier_id": "S02",
+   "share": 1.0,
+   "ttr_weeks": 12
+  },
+  {
+   "part_id": "P-2002",
+   "supplier_id": "S08",
+   "share": 1.0,
+   "ttr_weeks": 10
+  },
+  {
+   "part_id": "P-3001",
+   "supplier_id": "S04",
+   "share": 1.0,
+   "ttr_weeks": 8
+  },
+  {
+   "part_id": "P-3002",
+   "supplier_id": "S03",
+   "share": 1.0,
+   "ttr_weeks": 16
+  },
+  {
+   "part_id": "P-4001",
+   "supplier_id": "S05",
+   "share": 1.0,
+   "ttr_weeks": 9
+  },
+  {
+   "part_id": "P-4002",
+   "supplier_id": "S09",
+   "share": 0.6,
+   "ttr_weeks": 6
+  },
+  {
+   "part_id": "P-4002",
+   "supplier_id": "S05",
+   "share": 0.4,
+   "ttr_weeks": 6
+  },
+  {
+   "part_id": "P-5001",
+   "supplier_id": "S06",
+   "share": 1.0,
+   "ttr_weeks": 8
+  },
+  {
+   "part_id": "P-6001",
+   "supplier_id": "S07",
+   "share": 1.0,
+   "ttr_weeks": 6
+  },
+  {
+   "part_id": "P-7001",
+   "supplier_id": "S10",
+   "share": 1.0,
+   "ttr_weeks": 5
+  },
+  {
+   "part_id": "P-8001",
+   "supplier_id": "S12",
+   "share": 1.0,
+   "ttr_weeks": 6
+  },
+  {
+   "part_id": "P-9001",
+   "supplier_id": "S11",
+   "share": 1.0,
+   "ttr_weeks": 6
+  }
+ ],
+ "suppliers": [
+  {
+   "supplier_id": "S01",
+   "legal_name": "Volta Cell Systems Co., Ltd.",
+   "site_city": "Suzhou",
+   "region": "Jiangsu",
+   "country": "CN"
+  },
+  {
+   "supplier_id": "S02",
+   "legal_name": "Arclight Power Electronics GmbH",
+   "site_city": "Regensburg",
+   "region": "Bavaria",
+   "country": "DE"
+  },
+  {
+   "supplier_id": "S03",
+   "legal_name": "Kiyomi Semiconductor K.K.",
+   "site_city": "Kumamoto",
+   "region": "Kyushu",
+   "country": "JP"
+  },
+  {
+   "supplier_id": "S04",
+   "legal_name": "Hanbit Display Co.",
+   "site_city": "Hwaseong",
+   "region": "Gyeonggi",
+   "country": "KR"
+  },
+  {
+   "supplier_id": "S05",
+   "legal_name": "Penang Precision Sensors Sdn Bhd",
+   "site_city": "Bayan Lepas",
+   "region": "Penang",
+   "country": "MY"
+  },
+  {
+   "supplier_id": "S06",
+   "legal_name": "Tijuana Harness Works S.A. de C.V.",
+   "site_city": "Tijuana",
+   "region": "Baja California",
+   "country": "MX"
+  },
+  {
+   "supplier_id": "S07",
+   "legal_name": "Sanand Steel & Stampings Pvt Ltd",
+   "site_city": "Sanand",
+   "region": "Gujarat",
+   "country": "IN"
+  },
+  {
+   "supplier_id": "S08",
+   "legal_name": "Rotorix Motors Ltd",
+   "site_city": "Wroclaw",
+   "region": "Lower Silesia",
+   "country": "PL"
+  },
+  {
+   "supplier_id": "S09",
+   "legal_name": "Dongguan Lumen Optics Co., Ltd.",
+   "site_city": "Dongguan",
+   "region": "Guangdong",
+   "country": "CN"
+  },
+  {
+   "supplier_id": "S10",
+   "legal_name": "Silesia Seating Systems sp. z o.o.",
+   "site_city": "Wroclaw",
+   "region": "Lower Silesia",
+   "country": "PL"
+  },
+  {
+   "supplier_id": "S11",
+   "legal_name": "Shenzhen Brightway Electronics Co., Ltd.",
+   "site_city": "Shenzhen",
+   "region": "Guangdong",
+   "country": "CN"
+  },
+  {
+   "supplier_id": "S12",
+   "legal_name": "Nordlicht Glas AG",
+   "site_city": "Regensburg",
+   "region": "Bavaria",
+   "country": "DE"
+  },
+  {
+   "supplier_id": "S13",
+   "legal_name": "Hwaseong Energy Solutions Co.",
+   "site_city": "Hwaseong",
+   "region": "Gyeonggi",
+   "country": "KR"
+  }
+ ]
+}

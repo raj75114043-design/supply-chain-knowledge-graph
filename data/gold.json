@@ -1,0 +1,663 @@
+{
+ "entities": {
+  "S01": {
+   "name": "Volta Cell Systems Co., Ltd.",
+   "aliases": [
+    "Volta Cell Systems",
+    "Volta Cells",
+    "VCS"
+   ],
+   "tier": 1
+  },
+  "S02": {
+   "name": "Arclight Power Electronics GmbH",
+   "aliases": [
+    "Arclight Power",
+    "Arclight"
+   ],
+   "tier": 1
+  },
+  "S03": {
+   "name": "Kiyomi Semiconductor K.K.",
+   "aliases": [
+    "Kiyomi Semi",
+    "Kiyomi Semiconductor"
+   ],
+   "tier": 1
+  },
+  "S04": {
+   "name": "Hanbit Display Co.",
+   "aliases": [
+    "Hanbit Display",
+    "Hanbit"
+   ],
+   "tier": 1
+  },
+  "S05": {
+   "name": "Penang Precision Sensors Sdn Bhd",
+   "aliases": [
+    "Penang Precision",
+    "PPS"
+   ],
+   "tier": 1
+  },
+  "S06": {
+   "name": "Tijuana Harness Works S.A. de C.V.",
+   "aliases": [
+    "Tijuana Harness",
+    "THW"
+   ],
+   "tier": 1
+  },
+  "S07": {
+   "name": "Sanand Steel & Stampings Pvt Ltd",
+   "aliases": [
+    "Sanand Steel",
+    "Sanand Steel & Stampings"
+   ],
+   "tier": 1
+  },
+  "S08": {
+   "name": "Rotorix Motors Ltd",
+   "aliases": [
+    "Rotorix",
+    "Rotorix Motors"
+   ],
+   "tier": 1
+  },
+  "S09": {
+   "name": "Dongguan Lumen Optics Co., Ltd.",
+   "aliases": [
+    "Lumen Optics",
+    "DG Lumen Optics"
+   ],
+   "tier": 1
+  },
+  "S10": {
+   "name": "Silesia Seating Systems sp. z o.o.",
+   "aliases": [
+    "Silesia Seating",
+    "Silesia Seating Systems"
+   ],
+   "tier": 1
+  },
+  "S11": {
+   "name": "Shenzhen Brightway Electronics Co., Ltd.",
+   "aliases": [
+    "Brightway Electronics",
+    "Brightway"
+   ],
+   "tier": 1
+  },
+  "S12": {
+   "name": "Nordlicht Glas AG",
+   "aliases": [
+    "Nordlicht Glas",
+    "Nordlicht"
+   ],
+   "tier": 1
+  },
+  "S13": {
+   "name": "Hwaseong Energy Solutions Co.",
+   "aliases": [
+    "Hwaseong Energy",
+    "HES"
+   ],
+   "tier": 1
+  },
+  "X01": {
+   "name": "Kunlun Lithium Materials Ltd",
+   "aliases": [
+    "Kunlun Lithium",
+    "Kunlun Lithium Materials"
+   ],
+   "tier": 2
+  },
+  "X02": {
+   "name": "Ganzhou Rare Earth Magnetics Co.",
+   "aliases": [
+    "Ganzhou Magnetics",
+    "GREM"
+   ],
+   "tier": 2
+  },
+  "X03": {
+   "name": "Formosa Wafer Foundry Corp.",
+   "aliases": [
+    "Formosa Wafer",
+    "FWF"
+   ],
+   "tier": 2
+  },
+  "X04": {
+   "name": "Baltic Copper Rolling S.A.",
+   "aliases": [
+    "Baltic Copper",
+    "Baltic Copper Rolling"
+   ],
+   "tier": 2
+  },
+  "X05": {
+   "name": "Kyushu Specialty Gases K.K.",
+   "aliases": [
+    "Kyushu Specialty Gases",
+    "KSG"
+   ],
+   "tier": 2
+  },
+  "X06": {
+   "name": "Altai Mineral Holdings Limited",
+   "aliases": [
+    "Altai Mineral Holdings",
+    "Altai Minerals"
+   ],
+   "tier": 3
+  },
+  "Y01": {
+   "name": "Volta Mobility Ventures",
+   "aliases": [],
+   "tier": null
+  },
+  "Y02": {
+   "name": "Penang Precision Tooling Sdn Bhd",
+   "aliases": [
+    "Penang Precision Tooling"
+   ],
+   "tier": null
+  },
+  "Y03": {
+   "name": "Kiyomi Foods Co.",
+   "aliases": [
+    "Kiyomi Foods"
+   ],
+   "tier": null
+  },
+  "Y04": {
+   "name": "Arclight Media Group",
+   "aliases": [
+    "Arclight Media"
+   ],
+   "tier": null
+  }
+ },
+ "mentions": [
+  {
+   "doc_id": "D-013",
+   "mention": "Volta Cells",
+   "entity_id": "S01"
+  },
+  {
+   "doc_id": "D-013",
+   "mention": "Kunlun Lithium",
+   "entity_id": "X01"
+  },
+  {
+   "doc_id": "D-018",
+   "mention": "Hwaseong Energy Solutions Co.",
+   "entity_id": "S13"
+  },
+  {
+   "doc_id": "D-018",
+   "mention": "Kunlun Lithium Materials",
+   "entity_id": "X01"
+  },
+  {
+   "doc_id": "D-012",
+   "mention": "Rotorix Motors Ltd",
+   "entity_id": "S08"
+  },
+  {
+   "doc_id": "D-012",
+   "mention": "Ganzhou Magnetics",
+   "entity_id": "X02"
+  },
+  {
+   "doc_id": "D-015",
+   "mention": "Silesia Seating",
+   "entity_id": "S10"
+  },
+  {
+   "doc_id": "D-015",
+   "mention": "Ganzhou Rare Earth Magnetics Co.",
+   "entity_id": "X02"
+  },
+  {
+   "doc_id": "D-023",
+   "mention": "Kiyomi Semiconductor",
+   "entity_id": "S03"
+  },
+  {
+   "doc_id": "D-023",
+   "mention": "Formosa Wafer",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-031",
+   "mention": "Brightway Electronics",
+   "entity_id": "S11"
+  },
+  {
+   "doc_id": "D-031",
+   "mention": "Formosa Wafer",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-024",
+   "mention": "Penang Precision",
+   "entity_id": "S05"
+  },
+  {
+   "doc_id": "D-024",
+   "mention": "Formosa Wafer Foundry Corp.",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-025",
+   "mention": "Tijuana Harness Works S.A. de C.V.",
+   "entity_id": "S06"
+  },
+  {
+   "doc_id": "D-025",
+   "mention": "Baltic Copper Rolling",
+   "entity_id": "X04"
+  },
+  {
+   "doc_id": "D-035",
+   "mention": "Rotorix Motors",
+   "entity_id": "S08"
+  },
+  {
+   "doc_id": "D-035",
+   "mention": "Baltic Copper",
+   "entity_id": "X04"
+  },
+  {
+   "doc_id": "D-014",
+   "mention": "Kiyomi Semiconductor",
+   "entity_id": "S03"
+  },
+  {
+   "doc_id": "D-014",
+   "mention": "Kyushu Specialty Gases",
+   "entity_id": "X05"
+  },
+  {
+   "doc_id": "D-037",
+   "mention": "Brightway",
+   "entity_id": "S11"
+  },
+  {
+   "doc_id": "D-037",
+   "mention": "KSG",
+   "entity_id": "X05"
+  },
+  {
+   "doc_id": "D-038",
+   "mention": "VCS",
+   "entity_id": "S01"
+  },
+  {
+   "doc_id": "D-038",
+   "mention": "Kunlun Lithium Materials",
+   "entity_id": "X01"
+  },
+  {
+   "doc_id": "D-005",
+   "mention": "Kunlun Lithium",
+   "entity_id": "X01"
+  },
+  {
+   "doc_id": "D-004",
+   "mention": "GREM",
+   "entity_id": "X02"
+  },
+  {
+   "doc_id": "D-003",
+   "mention": "FWF",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-002",
+   "mention": "Baltic Copper Rolling S.A.",
+   "entity_id": "X04"
+  },
+  {
+   "doc_id": "D-006",
+   "mention": "Kyushu Specialty Gases K.K.",
+   "entity_id": "X05"
+  },
+  {
+   "doc_id": "D-001",
+   "mention": "GREM",
+   "entity_id": "X02"
+  },
+  {
+   "doc_id": "D-001",
+   "mention": "Altai Mineral Holdings",
+   "entity_id": "X06"
+  },
+  {
+   "doc_id": "D-040",
+   "mention": "Tijuana Harness",
+   "entity_id": "S06"
+  },
+  {
+   "doc_id": "D-033",
+   "mention": "Brightway Electronics",
+   "entity_id": "S11"
+  },
+  {
+   "doc_id": "D-007",
+   "mention": "Brightway",
+   "entity_id": "S11"
+  },
+  {
+   "doc_id": "D-017",
+   "mention": "Dongguan Lumen Optics Co., Ltd.",
+   "entity_id": "S09"
+  },
+  {
+   "doc_id": "D-017",
+   "mention": "Formosa Wafer Foundry Corp.",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-026",
+   "mention": "Nordlicht Glas",
+   "entity_id": "S12"
+  },
+  {
+   "doc_id": "D-028",
+   "mention": "Sanand Steel",
+   "entity_id": "S07"
+  },
+  {
+   "doc_id": "D-030",
+   "mention": "Tijuana Harness",
+   "entity_id": "S06"
+  },
+  {
+   "doc_id": "D-030",
+   "mention": "GREM",
+   "entity_id": "X02"
+  },
+  {
+   "doc_id": "D-009",
+   "mention": "DG Lumen Optics",
+   "entity_id": "S09"
+  },
+  {
+   "doc_id": "D-016",
+   "mention": "Penang Precision",
+   "entity_id": "S05"
+  },
+  {
+   "doc_id": "D-011",
+   "mention": "VCS",
+   "entity_id": "S01"
+  },
+  {
+   "doc_id": "D-011",
+   "mention": "PPS",
+   "entity_id": "S05"
+  },
+  {
+   "doc_id": "D-027",
+   "mention": "Arclight",
+   "entity_id": "S02"
+  },
+  {
+   "doc_id": "D-029",
+   "mention": "Formosa Wafer Foundry Corp.",
+   "entity_id": "X03"
+  },
+  {
+   "doc_id": "D-032",
+   "mention": "Hanbit",
+   "entity_id": "S04"
+  },
+  {
+   "doc_id": "D-010",
+   "mention": "KSG",
+   "entity_id": "X05"
+  },
+  {
+   "doc_id": "D-008",
+   "mention": "PPS",
+   "entity_id": "S05"
+  },
+  {
+   "doc_id": "D-008",
+   "mention": "DG Lumen Optics",
+   "entity_id": "S09"
+  },
+  {
+   "doc_id": "D-022",
+   "mention": "Volta Mobility Ventures",
+   "entity_id": "Y01"
+  },
+  {
+   "doc_id": "D-021",
+   "mention": "Penang Precision Tooling",
+   "entity_id": "Y02"
+  },
+  {
+   "doc_id": "D-020",
+   "mention": "Kiyomi Foods Co.",
+   "entity_id": "Y03"
+  },
+  {
+   "doc_id": "D-019",
+   "mention": "Arclight Media",
+   "entity_id": "Y04"
+  }
+ ],
+ "relations": [
+  {
+   "head": "X01",
+   "relation": "SUPPLIES",
+   "tail": "S01",
+   "component": "cathode material",
+   "doc_id": "D-013"
+  },
+  {
+   "head": "X01",
+   "relation": "LOCATED_IN",
+   "tail": "Xining",
+   "doc_id": "D-013"
+  },
+  {
+   "head": "X01",
+   "relation": "SUPPLIES",
+   "tail": "S13",
+   "component": "cathode material",
+   "doc_id": "D-018"
+  },
+  {
+   "head": "X02",
+   "relation": "SUPPLIES",
+   "tail": "S08",
+   "component": "NdFeB magnets",
+   "doc_id": "D-012"
+  },
+  {
+   "head": "X02",
+   "relation": "LOCATED_IN",
+   "tail": "Ganzhou",
+   "doc_id": "D-012"
+  },
+  {
+   "head": "X02",
+   "relation": "SUPPLIES",
+   "tail": "S10",
+   "component": "seat-motor magnets",
+   "doc_id": "D-015"
+  },
+  {
+   "head": "X02",
+   "relation": "LOCATED_IN",
+   "tail": "Ganzhou",
+   "doc_id": "D-015"
+  },
+  {
+   "head": "X03",
+   "relation": "SUPPLIES",
+   "tail": "S03",
+   "component": "silicon wafers",
+   "doc_id": "D-023"
+  },
+  {
+   "head": "X03",
+   "relation": "SUPPLIES",
+   "tail": "S11",
+   "component": "power-management ICs",
+   "doc_id": "D-031"
+  },
+  {
+   "head": "X03",
+   "relation": "SUPPLIES",
+   "tail": "S05",
+   "component": "radar chipsets",
+   "doc_id": "D-024"
+  },
+  {
+   "head": "X04",
+   "relation": "SUPPLIES",
+   "tail": "S06",
+   "component": "copper wire rod",
+   "doc_id": "D-025"
+  },
+  {
+   "head": "X04",
+   "relation": "SUPPLIES",
+   "tail": "S08",
+   "component": "copper windings",
+   "doc_id": "D-035"
+  },
+  {
+   "head": "X04",
+   "relation": "LOCATED_IN",
+   "tail": "Gdansk",
+   "doc_id": "D-035"
+  },
+  {
+   "head": "X05",
+   "relation": "SUPPLIES",
+   "tail": "S03",
+   "component": "process gases",
+   "doc_id": "D-014"
+  },
+  {
+   "head": "X05",
+   "relation": "SUPPLIES",
+   "tail": "S11",
+   "component": "etching gases",
+   "phrasing": "unseen",
+   "doc_id": "D-037"
+  },
+  {
+   "head": "X01",
+   "relation": "SUPPLIES",
+   "tail": "S01",
+   "component": "lithium hydroxide",
+   "phrasing": "unseen",
+   "doc_id": "D-038"
+  },
+  {
+   "head": "X01",
+   "relation": "LOCATED_IN",
+   "tail": "Xining",
+   "doc_id": "D-005"
+  },
+  {
+   "head": "X02",
+   "relation": "LOCATED_IN",
+   "tail": "Ganzhou",
+   "doc_id": "D-004"
+  },
+  {
+   "head": "X03",
+   "relation": "LOCATED_IN",
+   "tail": "Hsinchu",
+   "doc_id": "D-003"
+  },
+  {
+   "head": "X04",
+   "relation": "LOCATED_IN",
+   "tail": "Gdansk",
+   "doc_id": "D-002"
+  },
+  {
+   "head": "X05",
+   "relation": "LOCATED_IN",
+   "tail": "Kumamoto",
+   "doc_id": "D-006"
+  },
+  {
+   "head": "X02",
+   "relation": "SUBSIDIARY_OF",
+   "tail": "X06",
+   "doc_id": "D-001"
+  },
+  {
+   "head": "EV-01",
+   "relation": "AFFECTS",
+   "tail": "Guangdong",
+   "event_type": "flood",
+   "weeks": 3,
+   "date": "2026-09-18",
+   "location": "Guangdong",
+   "doc_id": "D-034"
+  },
+  {
+   "head": "EV-02",
+   "relation": "AFFECTS",
+   "tail": "Kyushu",
+   "event_type": "earthquake",
+   "weeks": 6,
+   "date": "2026-09-25",
+   "location": "Kyushu",
+   "doc_id": "D-036"
+  },
+  {
+   "head": "EV-03",
+   "relation": "AFFECTS",
+   "tail": "Jiangxi",
+   "event_type": "export restriction",
+   "weeks": 12,
+   "date": "2026-10-02",
+   "location": "Jiangxi",
+   "doc_id": "D-039"
+  },
+  {
+   "head": "EV-04",
+   "relation": "AFFECTS",
+   "tail": "S06",
+   "event_type": "fire",
+   "weeks": 4,
+   "date": "2026-10-05",
+   "supplier": "S06",
+   "doc_id": "D-040"
+  },
+  {
+   "head": "EV-05",
+   "relation": "AFFECTS",
+   "tail": "Gdansk",
+   "event_type": "port strike",
+   "weeks": 2,
+   "date": "2026-10-07",
+   "location": "Gdansk",
+   "doc_id": "D-041"
+  },
+  {
+   "head": "EV-06",
+   "relation": "AFFECTS",
+   "tail": "Hsinchu",
+   "event_type": "typhoon",
+   "weeks": 2,
+   "date": "2026-10-09",
+   "location": "Hsinchu",
+   "doc_id": "D-042"
+  }
+ ]
+}
